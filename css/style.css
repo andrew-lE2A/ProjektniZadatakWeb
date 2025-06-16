@@ -1,9 +1,19 @@
 @charset 'UTF-8';
 
 @font-face {
-  font-family: 'customfont';
-  src: url('font.ttf') format('truetype');
+    font-family: "font";
+    src: url("../font.ttf")format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
 }
+
+.moj-font {
+    font-family: "font", sans-serif;
+    font-size: 5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
 
 
 
