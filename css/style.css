@@ -58,6 +58,18 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
 
+.responsive-image {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  display: block;
+  margin: 40px auto; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
   @media (max-width : 600px ){
     .responsive-video {
       margin: 20px auto;
